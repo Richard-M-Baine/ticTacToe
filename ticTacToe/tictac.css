@@ -1,0 +1,48 @@
+#body{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+
+
+#main{
+    display: grid;
+    grid-template-columns: repeat(3,150px);
+    grid-template-rows: repeat(3,150px);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 450px;
+    height: 500px;
+}
+
+#footer{
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    
+}
+#newGame{
+    margin-right: 120px;
+    height: 40px;
+    width: 100px;
+}
+#giveUp{
+    height: 40px;
+    width: 100px;
+}
+.button{
+    height: 150px;
+    width: 150px;
+}
+.used{
+    background-color: black;
+}
+
+#victory{
+    font-size: 400px;
+    font-weight: bolder;
+}
